@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(find "$PATH"* -maxdepth 0 -type d |tr ":" "\n"| wc -l
+echo $(find "$PATH" |tr ":" "\n"| wc -l
